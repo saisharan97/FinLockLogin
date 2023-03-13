@@ -164,11 +164,11 @@ const Login = props => {
 
   return (
     <AppContainer>
-      {/* <div style={{ textAlign: "left" }}>
-            <h1>Sample Credentials</h1>
-            <p>Email: rahul</p>
-            <p>Password: rahul@2021</p>
-          </div> */}
+      <div style={{textAlign: 'left'}}>
+        <p>Sample Credentials</p>
+        <p>Email: rahul@gmail.com</p>
+        <p>Password: rahul@2021</p>
+      </div>
 
       <LoginFormContainer>
         <div className="img-container">
@@ -182,6 +182,7 @@ const Login = props => {
         <div>
           <MainHeading>Welcome!</MainHeading>
           <Para>
+            {/* eslint-disable-next-line */}
             Let's connect to your workspace.
             <br /> Please enter your email to continue.
           </Para>
